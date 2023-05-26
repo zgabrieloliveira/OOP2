@@ -1,6 +1,15 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
+/* 
+
+STRINGS
+
+2) Faça um programa que lê uma string e conta os caracteres que aparecem nela, colocando caracteres 
+e suas quantidades em um HashMap. Ao terminar a leitura, o programa mostra os caracteres e a quantidade de cada um.
+
+*/
+
 public class Main {
 
     public static void main (String[] args) {

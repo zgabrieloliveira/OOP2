@@ -2,6 +2,14 @@ import java.util.Random;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/*
+
+STRINGS 
+
+1) Faça um programa que lê 2 strings e checa se a primeira termina com os caracteres da segunda.
+
+*/
+
 public class Main {
 
     public static void main (String[] args) {

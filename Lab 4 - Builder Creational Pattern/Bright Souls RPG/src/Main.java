@@ -1,5 +1,20 @@
 import java.util.Scanner;
 
+/*
+
+1) Escreva um programa Java que implementa o padrão de projeto criacional Builder. 
+O objetivo do programa é construir um personagem de um jogo de RPG. As opções de construção são selecionadas pelo usuário. 
+O programa deve ter uma interface de texto estilo“menu” e oferecer ao usuário opções 
+“Criar Novo Personagem”, “Digitar Nome”, “Selecionar Profissão”, “Selecionar Equipamento”, “Rolar Atributos Aleatoriamente”, etc, 
+em qualquer ordem (use a imaginação para elaborar as opções).
+Também deve haver uma opção para o usuário avisar que terminou de montar o personagem.
+
+2) Implemente o método toString() para que, ao término da construção do personagem seu programa imprima uma descrição do personagem completo 
+(exemplo: “Ragnar, elfo guerreiro | Vida: 5 | Força: 8 | Defesa: 7 | Arma: espada de gelo | Item: poção de cura”).
+
+*/
+
+
 public class Main {
     public static void main(String[] args) throws Exception {
         menu();

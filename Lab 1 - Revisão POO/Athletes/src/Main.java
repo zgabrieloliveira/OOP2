@@ -4,6 +4,30 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/* 
+
+CLASSES E OBJETOS
+
+4) Crie uma classe abstrata chamada Atleta. Inclua atributos privados (nome, idade, peso, altura, etc), e getters e setters públicos. 
+Inclua também um construtor que possa criar a classe com estes atributos setados. A classe tem um método "aquecer" que recebe o número
+de minutos de aquecimento e imprime na tela informações de aquecimento. A classe também possui um método abstrato "jogar".
+
+5) Implemente o método 'toString' da classe. 
+
+6) Crie 3 classes que herdam de Atleta, por exemplo: Futebolista, Tenista e Corredor. Use polimorfismo para que cada um tenha sua
+implementação própria do método "jogar", que imprime um texto diferente (por exemplo, o método jogar de Tenista imprime "jogando tênis").
+
+7) Construa e popule duas listas de Atletas, uma em forma de vetor e outra em forma de ArrayList. Ordene os atletas das listas por nome 
+usando o método "compareTo" da interface Comparable (você precisa implementar essa interface). Percorra o vetor com um 'for', chamando 
+os métodos "aquecer" e "jogar" para todos os objetos da lista. No caso da List, percorra a lista usando um loop do tipo 'for-each'. 
+
+8) Por fim, inclua um método estático para 'calcularProximaOlimpiada' que imprime o tempo restante para a próxima Olimpíada em dias,
+e retorna um objeto Date com a data da próxima Olimpíada.
+
+9) Demonstre o funcionamento de tudo no seu método "main".
+
+*/
+
 public class Main {
     public static void main(String[] args) {
 

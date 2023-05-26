@@ -1,6 +1,15 @@
 import java.util.Scanner;
 import java.util.Random;
 
+/*
+
+TÁ QUENTE, TÁ FRIO...
+
+3) Escreva um programa que gera um número aleatório de 1 a 100, e então pede para o usuário adivinhar o número. 
+O programa deve retornar se o chute do usuário foi muito alto ou muito baixo, e então pedir outro chute até que o usuário acerte.
+
+*/
+
 public class Main {
     public static void main(String[] args) {
 

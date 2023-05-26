@@ -1,6 +1,12 @@
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/*
+
+2) Implemente o mesmo programa com Thread Pools (ExecutorServices).
+
+*/
+
 /* utilizando executores, a saída se mantém correta:
  * um arquivo tem 18 linhas!
  * um arquivo tem 15 linhas!

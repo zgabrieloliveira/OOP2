@@ -1,3 +1,11 @@
+/*
+Implemente o padrão Abstract Factory em uma aplicação de Combo, em que há fábricas diferentes para carros de marcas diferentes.
+Cada Carro possui um Motor e Acessórios. 
+Demonstre o funcionamento do padrão na sua função main, fabricando pelo menos 3 tipos diferentes de Carro. 
+
+*/
+
+
 public class Main {
     public static void main(String[] args) throws Exception {
         
